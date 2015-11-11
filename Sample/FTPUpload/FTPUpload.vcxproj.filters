@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="FtpClient\FTPListParse.cpp">
+      <Filter>FtpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpClient\FTPFileStatus.cpp">
+      <Filter>FtpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpClient\FTPDataTypes.cpp">
+      <Filter>FtpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpClient\FTPClient.cpp">
+      <Filter>FtpClient</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpClient\BlockingSocket.cpp">
+      <Filter>FtpClient</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FtpClient">
+      <UniqueIdentifier>{3a279e56-2c39-4c26-819c-402403a9d2a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FtpClient\smart_ptr.h">
+      <Filter>FtpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpClient\FTPListParse.h">
+      <Filter>FtpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpClient\FTPFileStatus.h">
+      <Filter>FtpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpClient\FTPDataTypes.h">
+      <Filter>FtpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpClient\FTPClient.h">
+      <Filter>FtpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpClient\Definements.h">
+      <Filter>FtpClient</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpClient\BlockingSocket.h">
+      <Filter>FtpClient</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
