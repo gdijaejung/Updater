@@ -2,9 +2,11 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="versioncreator.cpp" />
-    <ClCompile Include="fileversion.cpp" />
+    <ClCompile Include="packageversion.cpp" />
+    <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="fileversion.h" />
+    <ClInclude Include="packageversion.h" />
+    <ClInclude Include="stdafx.h" />
   </ItemGroup>
 </Project>

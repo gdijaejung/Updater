@@ -1,0 +1,6 @@
+version = 1
+test1.txt	;	1
+test2.txt	;	2
+test3.txt	;	3
+test4.txt	;	4
+
